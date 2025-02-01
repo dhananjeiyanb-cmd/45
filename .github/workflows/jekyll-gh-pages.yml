@@ -1,0 +1,63 @@
+name: Portfolio Website Deployment
+version: 1.0
+
+metadata:
+  author: "Dhananjeiyan B"
+  email: "dhananjeiyanb@gmail.com"
+  description: "Personal portfolio website showcasing skills, projects, and professional experience."
+  updated_date: "2024-11-04"
+
+skills:
+  programming_languages:
+    - Python
+    - PHP
+    - Java
+    - C#
+  tools_and_frameworks:
+    - AI Tools (ChatGPT, DALL-E)
+    - Machine Learning
+    - Cloud Computing
+    - Web Development
+  soft_skills:
+    - Team Management
+    - Problem Solving
+    - Communication
+
+projects:
+  - name: Cloud Optimization Platform
+    description: "Developed a cloud resource management platform using AI algorithms."
+    duration: "12 months"
+    technologies: ["Python", "AWS", "AI"]
+
+  - name: AI Learning Assistant
+    description: "Built an AI-based chatbot for educational institutions to assist students in academic queries."
+    duration: "8 months"
+    technologies: ["PHP", "AI", "Machine Learning"]
+
+  - name: Web Portal for JKKN College
+    description: "Led the development of a student and faculty management portal."
+    duration: "10 months"
+    technologies: ["Java", "Spring Boot", "MySQL"]
+
+experience:
+  - role: Assistant Professor
+    organization: JKKN College of Engineering & Tech
+    period: "09-2021 to 11-2024"
+    responsibilities:
+      - "Guided academic advancements for 4 years."
+      - "Handled technical workshops and industry collaboration."
+
+  - role: Cloud Architect
+    organization: Zigma Software
+    period: "12-2015 to 12-2020"
+    responsibilities:
+      - "Implemented cloud solutions for enterprise clients."
+      - "Optimized resource management on AWS."
+
+deployment:
+  server: "AWS EC2"
+  environment: "Production"
+  tech_stack:
+    - Web Server: "Nginx"
+    - Backend: "Node.js"
+    - Database: "PostgreSQL"
